@@ -73,6 +73,15 @@ int main() {
                             // --> data members are "undefined"              
 }
 
+int main(){
+    int a; // here a is undefined : trash value
+}
+
+int a; // here a is undefined but has value 0 ( 0-initialization)
+
+
+
+
 class Complex
 {
     private:

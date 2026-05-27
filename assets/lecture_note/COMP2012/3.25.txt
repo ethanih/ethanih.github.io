@@ -136,7 +136,7 @@ For class template , we MUST specify the Actual type of template argument when i
 
 Difference Between Class and Function Templates:
 
-For function templates, the compiler may deduce the templatearguments from the function call.
+For function templates, the compiler may deduce the template arguments from the function call.
 
 int i = larger(4, 5); // Rely on compilers to deduce larger<int>
 int j = larger<int>(7, 2); // Explicit instantiation
@@ -222,7 +222,7 @@ PBV in Polymorphism --> Slicing
 
 class D : public B
 
-void pbv(B& b){};
+void pbv(B b){};
 
 D obj;
 

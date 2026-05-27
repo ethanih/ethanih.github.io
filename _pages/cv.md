@@ -9,12 +9,12 @@ nav_order: 1
 Some of my handwritten notes :)
 ### COMP 3711
 
-- [Asymptotic Notation Intro](/assets/lecture_note/COMP3711/asymptotic%20notation_intro.pdf)
-- [Divide and Conquer / Binary Search / Merge Sort](/assets/lecture_note/COMP3711/Divide%20and%20Conquer_Binary%20Search_merge%20Sort.pdf)
-- [Inversion Counting / Max Subarray](/assets/lecture_note/COMP3711/inversion%20counting_max%20Subarray.pdf)
-- [Multiplication / Master Theorem](/assets/lecture_note/COMP3711/Multiplication_Master_theorem.pdf)
+- [Asymptotic Notation / Intro to Algorithm](/assets/lecture_note/COMP3711/Asymptotic_notation_Intro.pdf)
+- [Divide and Conquer / Binary Search / Merge Sort](/assets/lecture_note/COMP3711/Divide_and_Conquer-Binary%20Search_Merge_Sort.pdf)
+- [Inversion Counting / Max Subarray](/assets/lecture_note/COMP3711/Inversion_counting_Max_Subarray.pdf)
+- [Multiplication / Master Theorem](/assets/lecture_note/COMP3711/Multiplication-Master_theorem.pdf)
 - [Randomized Algorithm](/assets/lecture_note/COMP3711/Randomized_algorithm.pdf)
-- [Quick Sort / Random Selection](/assets/lecture_note/COMP3711/Quick_Sort_Random_Selection.pdf)
+- [Quick Sort / Random Selection](/assets/lecture_note/COMP3711/Quick_Sort-Random_Selection.pdf)
 - [Heap Sort](/assets/lecture_note/COMP3711/Heap_sort.pdf)
 - [Sorting in Linear Time](/assets/lecture_note/COMP3711/Linear%20sort.pdf)
 - [Greedy Algorithm](/assets/lecture_note/COMP3711/Greedy-Algorithm.pdf)

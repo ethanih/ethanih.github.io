@@ -1,0 +1,162 @@
+StudentNode* removeStudent(StudentNode* node, int id){
+    if (node == nullptr) return nullptr;
+    if (node->student.id == id){
+        if(!node->left || !node->right){
+            StudentNode* temp = node;
+            node = (node->left) ? node->left : node->right;
+            temp->left = temp->right = nullptr;
+            delete temp;
+            return node;
+        }
+        StudentNode* temp = minCGPANode(node->right);
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+Student::Student(string name, int key, float gpa):UPerson(name,key),GPA(gpa){}
+
+void Student:;print(ostream& os) const{
+    os<<name<<"/"<<key<<"/"<<GPA<<endl;
+}
+
+
+Staff::Staff(string name, int key, string _title):UPerson(name,key) title(_title){}
+
+void Staff::print(ostream& os) const{
+    os<<name<<"/"<<key<<"/"<<title<<endl;
+}
+
+Cell::Cell():data(nullptr),flag(EMPTY){}
+Cell::~Cell(){
+    delete data;
+}
+
+template <typename S>
+friend ostream& operator<<(ostream& os, const HashTable<S>& htable){
+    for (int i = 0 ; i< size; i++){
+        cout<<i<<": "<<"status ="<<static_cast<int>(cell[i].flag)<<"data =";
+        if (data == nullptr)
+            cout<<"null"<<endl;
+        else
+            cell[i].data->print(os); 
+    }
+}
+
+
+HashTable::HashTable(int m, int (*h)(int),int(*o)(int)):size(m),num_empty_cells(m),hash(h),offset(o),{
+    cell = new Cell<T>[size];
+}
+
+HashTable<T>& HashTable::operator+=(T*data){
+    if(search(data->get_key()) != -1) 
+        return;
+    if(is_half_empty()) 
+
+
+    int value = hash(data->get_key());
+    while(cell[value]->flag == ACTIVE){
+        value = (hash(data->get_key())+o(data->get_key()))%size;
+    }
+    cell[value]->flag = ACTIVE;
+    cell[value]->data = data;
+    num_empty_cells--;
+    return *this;    
+}
+
+
+BSTNode<T>{
+
+}
+
+BST<T>{
+    private:
+        BSTNode{
+            T* data;
+            int key;
+            BST<T>* left;
+            BST<T>* right;
+        }
+        BSTNode* root;
+}
+
+void remove(int key){
+    if (root->key > key){
+        root.left->root->remove(key);
+    }
+    else if( root->key < key){
+        root.right->root->remove(key);
+    }
+    if(root->left != nullptr && root->right != nullptr)
+    {
+        BSTNode* deletingNode = root->left.root->find_max();
+        root->data = deletingNode->data;
+        root->key = deletingNode->key;
+        root->left.root.remove(deletingNode->key);
+    }
+    else{
+        BSTNode* deletingNode = root;
+        root = (root->left)? root->left.root : root->right.root;
+        deletingNode->left = deletingNode->right = nullptr;
+        delete deletingNode;
+    }
+}
+
+
+
+
+
+Project(char* title. const int num):MAX_NUM_MEMBERS(num),{
+    this->title = new char[strlen(title)+1];
+    strcpy(this->title,title);
+}
+
+virtual ~Project(){
+    delete[] title;
+}
+virtual void print() const = 0;
+
+
+no since its derived class directly access "members"
+
+since its data member "name" is a dynamic allocated object
+if default copy constructor then shallow copy then double delete
+
+
+Student::Student( const Student& other):year(other.year),name(new char[strlen(other.name)+1]){
+    strcpy(name,other.name);
+}
+
+yes
+
+
+cout<< dynamic_cast<GroupProject*>(projectList[0])->getNumMembers()<< endl;
+
+
+
+BigInt(int value = 0): arraySize(defaultSize),{
+    digits = new int[arraySize];
+    int temp[arraySize];
+    int count = 0;
+    for (int i = 0 ; i < arraySize ; i++){
+        temp[i] = value%10;
+        count++;
+        if (value == 0) break;
+        value /= 10;
+    }
+    for (int i = 0 ; i < count l i++){
+        digits[i] = temp[count-i-1];
+    }
+}
+
+
+

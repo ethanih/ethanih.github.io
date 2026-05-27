@@ -52,7 +52,7 @@ int * p = nullptr; // p ---> nullptr
 int x = 123;
 p = &x; // p ---> x's address  
 f(p);
-        // f(int* p) { int p = new int;} --> this "p" is a LOCAL VARIABLE!
+        // f(int* p) { p = new int;} --> this "p" is a LOCAL VARIABLE!
         // f's p --> new int's address
         // 可以读,不能改 (改变不会传到函数体外)
 

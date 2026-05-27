@@ -16,6 +16,8 @@ Content:
 e.g. X(int n){} in class definition
 int main(){ X obj;} // Error! No Default Constructor! 
 
+如果定义了别的构造函数(非默认构造) 那么compiler-generated默认构造会被覆盖
+
 
 
 Compiler-generated default constructor --- deta members are not initialized
@@ -40,7 +42,7 @@ Remark:
 "explicit" Keyword
 
 
-explicit copy constructor:
+Explicit copy constructor:
 explicit Word(const Word& word){....}
 
 Word w("comp2012") // OK!
@@ -128,7 +130,7 @@ Destructor          (2. 销毁f函数的参数)
 Default constructor (3. 创建temp)
 Copy constructor    (4. 将temp拷贝到返回值临时对象) // RVO OFF!
 Destructor          (5. 销毁temp)
-Copy constructor    (6. 将返回值临时对象拷贝到？这里有问题，见下方详细分析)
+Destructor          (6. 销毁返回对象)
 
 --- End of main ---
 Destructor          (7. 销毁y3)
@@ -160,6 +162,12 @@ class A() { private: int a(1);} // Error!
 Why?
 在 C++ 的语法规则里，圆括号 () 不能被用于指定类内非静态数据成员的默认值。
 --> Reason : Complier cannot tell whether it is a data member OR a "Member function" !
+
+Remark:
+
+A a(); // define a function : not initialization!
+A a(1); // A(int): initialization!
+
 
 
 Function and constructor overloading
@@ -223,9 +231,9 @@ Z z;
 then X(), Y() ,Z(), XYZ()
 
 Remarks:
-if we are constructing self-defined data memberin MIL , 
+if we are constructing self-defined data member in MIL , 
 We are definitely going to use "Constructor" , no assignment involved
-"如果data member 都没有被完全构造,怎么会有赋值呢?“
+"如果data member 都没有被完全构造,怎么会有"赋值"呢?“
 
 Const Data member: 
 const or reference members MUST be initialized using member
@@ -245,7 +253,6 @@ A(): a(3.14) , b(a) // Okay {
 
 
 Delegating constructor
-
 
 X(int n): X(),n{n}{}; // ERROR!! delegating constructor must be the ONLY thing in MIL
 X(int n): X() {} // Good
