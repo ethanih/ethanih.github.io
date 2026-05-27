@@ -1,7 +1,7 @@
 3.9
 Content:
-1. Order of Con/Destruction w/ Inheritance
-2. Problems w/ inheritance
+1. Order of Con/Destruction with Inheritance
+2. Problems with inheritance
 
 
 

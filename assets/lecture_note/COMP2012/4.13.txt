@@ -89,7 +89,7 @@ it is automatically passed by reference ( modifiable )
 
 [=]() mutable { cout << ++x << endl; } // Okay ( const -> non-const)
 
-
+Remark:
 * mutable keyword只改变capture-list ( [] ) 中按值传递的变量 从const -> non-const
 对于其他变量 mutable没有影响
 

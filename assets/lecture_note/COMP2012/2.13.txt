@@ -55,12 +55,12 @@ Any const to the right of * refers to the pointer itself
 
 int * ptr 
 
-Case1 -> const int* ptr
-Case2 -> int const* ptr
+Case1 -> const int* ptr // 常量整数的指针
+Case2 -> int const* ptr // 常量整数的指针
 "Any const to the left of * refers to the object being pointed to"
 Case 1,2 -> Pointer to "constant int"
 
-Case3 -> int* const ptr
+Case3 -> int* const ptr // 整数的常量指针
 "Any const to the right of * refers to the pointer itself"
 -> Constant pointer to int ( " fixed ")
 
@@ -82,7 +82,7 @@ cout<< *ptr ; // Okay!
 
 x++; // Okay , x is modifiable!
 
-(ptr)++; // NO !
+(*ptr)++; // NO !
          // x cannot be modified through ptr , but can be modified through x itself
 
 
@@ -91,15 +91,13 @@ For "int* const", Initialization is a must!
 
 int x = 10;
 int* const ptr = &x; // Okay
-
-
 int y = 20;
 int* const ptr = &y; // ERROR, It suppose to be fixed! i.e. No re-binding!
 
 (*ptr) = 100; // OKAY , (*ptr) is regarded as modifiable
 
 
-const int* const ptr
+const int* const ptr;
 
 ptr = &y; -> ERROR
 (*ptr) = 100; -> ERROR

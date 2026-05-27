@@ -126,6 +126,8 @@ cout << x; // Error!
 
 We need to write "<<" as a Global non-member function!
 
+<< /  >> 不能写在类定义内
+
 ostream& operator<< (ostream& os , Vector& v) {
     os << v.getX() << endl;
 }
