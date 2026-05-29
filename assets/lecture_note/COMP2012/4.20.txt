@@ -98,7 +98,8 @@ bool BST<T>::contains(const T& x) const
         return true;
     else if(x < root -> value)
         return root->left.contains(x)
-    else return root->right.contains(x)
+    else 
+        return root->right.contains(x)
 }
 
 
