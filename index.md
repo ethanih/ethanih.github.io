@@ -1,0 +1,25 @@
+---
+layout: default
+title: About
+description: About GUO Yiheng.
+---
+
+<section class="hero">
+  <div>
+    <h1>GUO Yiheng</h1>
+    <p class="lead">
+      I am currently an undergraduate student majoring in Computer Science at
+      The Hong Kong University of Science and Technology (HKUST).
+    </p>
+  </div>
+
+  <aside class="profile" aria-label="Contact information">
+    <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="GUO Yiheng">
+    <div class="contact">
+      <a href="tel:+85264347736">(+852) 64347736</a>
+      <a href="tel:+8613611007310">(+86) 13611007310</a>
+      <a href="mailto:yguocn@connect.ust.hk">yguocn@connect.ust.hk</a>
+      <span>Wechat: Uregrotesque</span>
+    </div>
+  </aside>
+</section>
