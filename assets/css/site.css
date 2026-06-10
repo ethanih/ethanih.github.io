@@ -208,7 +208,7 @@ h3 {
 }
 
 .course {
-  background: var(--surface);
+  background: transparent;
   border: 1px solid var(--line);
   border-radius: 8px;
   margin-right: clamp(48px, 8vw, 140px);
