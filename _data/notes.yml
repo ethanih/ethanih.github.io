@@ -1,0 +1,142 @@
+- course: COMP 2012
+  notes:
+    - title: "2.2-2.4"
+      file: /assets/lecture_note/COMP2012/Week1.txt
+    - title: "2.9"
+      file: /assets/lecture_note/COMP2012/2.9.txt
+    - title: "2.11"
+      file: /assets/lecture_note/COMP2012/2.11.txt
+    - title: "2.13"
+      file: /assets/lecture_note/COMP2012/2.13.txt
+    - title: "2.16"
+      file: /assets/lecture_note/COMP2012/2.16.txt
+    - title: "2.23"
+      file: /assets/lecture_note/COMP2012/2.23.txt
+    - title: "2.25"
+      file: /assets/lecture_note/COMP2012/2.25.txt
+    - title: "3.2"
+      file: /assets/lecture_note/COMP2012/3.2.txt
+    - title: "3.4"
+      file: /assets/lecture_note/COMP2012/3.4.txt
+    - title: "3.9"
+      file: /assets/lecture_note/COMP2012/3.9.txt
+    - title: "3.11"
+      file: /assets/lecture_note/COMP2012/3.11.txt
+    - title: "3.16"
+      file: /assets/lecture_note/COMP2012/3.16.txt
+    - title: "3.18"
+      file: /assets/lecture_note/COMP2012/3.18.txt
+    - title: "3.23"
+      file: /assets/lecture_note/COMP2012/3.23.txt
+    - title: "3.25"
+      file: /assets/lecture_note/COMP2012/3.25.txt
+    - title: "3.30"
+      file: /assets/lecture_note/COMP2012/3.30.txt
+    - title: "4.1"
+      file: /assets/lecture_note/COMP2012/4.1.txt
+    - title: "4.13"
+      file: /assets/lecture_note/COMP2012/4.13.txt
+    - title: "4.15"
+      file: /assets/lecture_note/COMP2012/4.15.txt
+    - title: "4.20"
+      file: /assets/lecture_note/COMP2012/4.20.txt
+    - title: "4.22"
+      file: /assets/lecture_note/COMP2012/4.22.txt
+    - title: "4.27"
+      file: /assets/lecture_note/COMP2012/4.27.txt
+    - title: "4.29"
+      file: /assets/lecture_note/COMP2012/4.29.txt
+    - title: "5.4"
+      file: /assets/lecture_note/COMP2012/5.4.txt
+    - title: "5.6"
+      file: /assets/lecture_note/COMP2012/5.6.txt
+- course: COMP 3211
+  notes:
+    - title: "Lecture 2: Reactive Agents"
+      file: /assets/lecture_note/COMP3211/Lecture 2.pdf
+    - title: "Lecture 3: Search"
+      file: /assets/lecture_note/COMP3211/Lecture 3.pdf
+    - title: "Lecture 4: Constraint Satisfaction Problem"
+      file: /assets/lecture_note/COMP3211/Lecture 4.pdf
+    - title: "Lecture 5: Game Tree Search"
+      file: /assets/lecture_note/COMP3211/Lecture 5.pdf
+    - title: "Lecture 6: MDP and Reinforcement Learning"
+      file: /assets/lecture_note/COMP3211/Lecture 6.pdf
+    - title: "Lecture 7: Game Theory"
+      file: /assets/lecture_note/COMP3211/Lecture 7.pdf
+    - title: "Lecture 8: Auctions"
+      file: /assets/lecture_note/COMP3211/Lecture 8.pdf
+    - title: "Lecture 9: Knowledge Representation and Reasoning"
+      file: /assets/lecture_note/COMP3211/Lecture 9.pdf
+    - title: "Lecture 10: Reasoning Under Uncertainty"
+      file: /assets/lecture_note/COMP3211/Lecture 10.pdf
+- course: COMP 3711
+  notes:
+    - title: Asymptotic Notation / Intro to Algorithm
+      file: /assets/lecture_note/COMP3711/Asymptotic_notation_Intro.pdf
+    - title: Divide and Conquer / Binary Search / Merge Sort
+      file: /assets/lecture_note/COMP3711/Divide_and_Conquer-Binary Search_Merge_Sort.pdf
+    - title: Inversion Counting / Max Subarray
+      file: /assets/lecture_note/COMP3711/Inversion_counting_Max_Subarray.pdf
+    - title: Multiplication / Master Theorem
+      file: /assets/lecture_note/COMP3711/Multiplication-Master_theorem.pdf
+    - title: Randomized Algorithm
+      file: /assets/lecture_note/COMP3711/Randomized_algorithm.pdf
+    - title: Quick Sort / Random Selection
+      file: /assets/lecture_note/COMP3711/Quick_Sort-Random_Selection.pdf
+    - title: Heap Sort
+      file: /assets/lecture_note/COMP3711/Heap_sort.pdf
+    - title: Sorting in Linear Time
+      file: /assets/lecture_note/COMP3711/Linear sort.pdf
+    - title: Greedy Algorithm
+      file: /assets/lecture_note/COMP3711/Greedy-Algorithm.pdf
+    - title: Huffman Encoding
+      file: /assets/lecture_note/COMP3711/Huffman Encoding.pdf
+    - title: Dynamic Programming
+      file: /assets/lecture_note/COMP3711/Dynamic Programming.pdf
+    - title: Graph Intro / BFS / DFS / Topological Sort
+      file: /assets/lecture_note/COMP3711/GraphIntro_BFS_DFS_TopoSort.pdf
+    - title: Minimum Spanning Tree
+      file: /assets/lecture_note/COMP3711/Minimum Spanning Tree.pdf
+    - title: Shortest Path
+      file: /assets/lecture_note/COMP3711/Shortest Path.pdf
+- course: COMP 4211
+  notes:
+    - title: Linear Regression
+      file: /assets/lecture_note/COMP4211/Linear regression.pdf
+    - title: Logistic Regression
+      file: /assets/lecture_note/COMP4211/Logistic regression.pdf
+    - title: Other Approaches to Classification
+      file: /assets/lecture_note/COMP4211/Other approaches to classification.pdf
+    - title: Bias-Variance Decomposition
+      file: /assets/lecture_note/COMP4211/Bias-Variance_decomposition.pdf
+    - title: Feed-Forward Neural Network
+      file: /assets/lecture_note/COMP4211/Feed-forward Neural Network.pdf
+    - title: Fundamental Issues in Deep Learning
+      file: /assets/lecture_note/COMP4211/Fundamental_Issues_in_Deep_Learning.pdf
+    - title: Convolutional Neural Network
+      file: /assets/lecture_note/COMP4211/Convolutional Nerual Network.pdf
+    - title: Recurrent Neural Network
+      file: /assets/lecture_note/COMP4211/Recurrent Neural Network.pdf
+    - title: Transformer Models
+      file: /assets/lecture_note/COMP4211/Transformer.pdf
+    - title: Vision Transformer / CLIP
+      file: /assets/lecture_note/COMP4211/ViT_CLIP.pdf
+    - title: Variational Autoencoders
+      file: /assets/lecture_note/COMP4211/VAE.pdf
+    - title: Generative Adversarial Networks
+      file: /assets/lecture_note/COMP4211/GAN.pdf
+    - title: Support Vector Machines
+      file: /assets/lecture_note/COMP4211/SVM.pdf
+    - title: Decision Trees and Random Forests
+      file: /assets/lecture_note/COMP4211/Decision Tree and Random Forest.pdf
+- course: MATH 2011
+  notes:
+    - title: Vector & Curves
+      file: /assets/lecture_note/MATH2011/Vector&Curves.pdf
+    - title: Functions of Several Variables
+      file: /assets/lecture_note/MATH2011/Functions of several variables.pdf
+    - title: Multiple Integration
+      file: /assets/lecture_note/MATH2011/Multiple integration.pdf
+    - title: Vector Calculus
+      file: /assets/lecture_note/MATH2011/Vector Field.pdf
