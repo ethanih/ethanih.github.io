@@ -13,7 +13,7 @@ permalink: /mynotes/
 
 <section class="course-grid" aria-label="Course note list">
   {% for course in site.data.notes %}
-    <details class="course">
+    <details class="course" open>
       <summary class="course-header">
         <h2>{{ course.course }}</h2>
         <span class="count">{{ course.notes | size }} notes</span>
