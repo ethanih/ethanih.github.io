@@ -1,3 +1,13 @@
+- course: ELEC 2600
+  notes:
+    - title: "Part 1: Basic Probability "
+      file: /assets/lecture_note/ELEC2600/Part1-Basic Probability Theorem.pdf
+    - title: "Part 2: Single Random Variables"
+      file: 
+    - title: "Part 3: Multiple Random Variables"
+      file: 
+    - title: "Part 4: Stochastic Process"
+      file: 
 - course: COMP 3211
   notes:
     - title: "Lecture 2: Reactive Agents"
@@ -80,56 +90,24 @@
       file: /assets/lecture_note/COMP4211/Decision Tree and Random Forest.pdf
 - course: COMP 2012
   notes:
-    - title: "2.2-2.4"
-      file: /assets/lecture_note/COMP2012/Week1.txt
-    - title: "2.9"
-      file: /assets/lecture_note/COMP2012/2.9.txt
-    - title: "2.11"
-      file: /assets/lecture_note/COMP2012/2.11.txt
-    - title: "2.13"
-      file: /assets/lecture_note/COMP2012/2.13.txt
-    - title: "2.16"
-      file: /assets/lecture_note/COMP2012/2.16.txt
-    - title: "2.23"
-      file: /assets/lecture_note/COMP2012/2.23.txt
-    - title: "2.25"
-      file: /assets/lecture_note/COMP2012/2.25.txt
-    - title: "3.2"
-      file: /assets/lecture_note/COMP2012/3.2.txt
-    - title: "3.4"
-      file: /assets/lecture_note/COMP2012/3.4.txt
-    - title: "3.9"
-      file: /assets/lecture_note/COMP2012/3.9.txt
-    - title: "3.11"
-      file: /assets/lecture_note/COMP2012/3.11.txt
-    - title: "3.16"
-      file: /assets/lecture_note/COMP2012/3.16.txt
-    - title: "3.18"
-      file: /assets/lecture_note/COMP2012/3.18.txt
-    - title: "3.23"
-      file: /assets/lecture_note/COMP2012/3.23.txt
-    - title: "3.25"
-      file: /assets/lecture_note/COMP2012/3.25.txt
-    - title: "3.30"
-      file: /assets/lecture_note/COMP2012/3.30.txt
-    - title: "4.1"
-      file: /assets/lecture_note/COMP2012/4.1.txt
-    - title: "4.13"
-      file: /assets/lecture_note/COMP2012/4.13.txt
-    - title: "4.15"
-      file: /assets/lecture_note/COMP2012/4.15.txt
-    - title: "4.20"
-      file: /assets/lecture_note/COMP2012/4.20.txt
-    - title: "4.22"
-      file: /assets/lecture_note/COMP2012/4.22.txt
-    - title: "4.27"
-      file: /assets/lecture_note/COMP2012/4.27.txt
-    - title: "4.29"
-      file: /assets/lecture_note/COMP2012/4.29.txt
-    - title: "5.4"
-      file: /assets/lecture_note/COMP2012/5.4.txt
-    - title: "5.6"
-      file: /assets/lecture_note/COMP2012/5.6.txt
+    - title: "Intro, Review, Const-ness"
+      file: /assets/lecture_note/COMP2012/intro, review, const-ness.txt
+    - title: "Constructors & Destructor"
+      file: /assets/lecture_note/COMP2012/Constructors & Destructor.txt
+    - title: "Inheritance and Polymorphism"
+      file: /assets/lecture_note/COMP2012/Inheritance and Polymorphism.txt
+    - title: "Generic Programming"
+      file: /assets/lecture_note/COMP2012/Generic Programming.txt
+    - title: "Lambda and Function Pointer"
+      file: /assets/lecture_note/COMP2012/Lambda and Function Pointer.txt
+    - title: "Binary Search Tree"
+      file: /assets/lecture_note/COMP2012/Binary Search Tree.txt
+    - title: "Hashing"
+      file: /assets/lecture_note/COMP2012/Hashing.txt
+    - title: "rvalue Reference and Move Semantics"
+      file: /assets/lecture_note/COMP2012/rvalue Reference and Move Semantics.txt
+
+
 - course: MATH 2011
   notes:
     - title: Vector & Curves

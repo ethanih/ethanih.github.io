@@ -193,8 +193,11 @@ h3 {
 .notes-intro {
   display: grid;
   gap: 8px;
+  justify-items: start;
   margin-bottom: 24px;
-  max-width: 620px;
+  max-width: 100%;
+  text-align: left;
+  width: 100%;
 }
 
 .notes-intro p {
@@ -204,63 +207,50 @@ h3 {
 
 .course-grid {
   display: grid;
-  gap: 12px;
+  gap: 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 100%;
 }
 
 .course {
   background: transparent;
   border: 1px solid var(--line);
   border-radius: 8px;
-  margin-right: clamp(36px, 6vw, 112px);
   overflow: hidden;
   transition: height 220ms ease;
 }
 
 .course-header {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  list-style: none;
+  gap: 16px;
   margin: 0;
-  padding: 16px;
-  cursor: pointer;
-}
-
-.course-header::-webkit-details-marker {
-  display: none;
-}
-
-.course-header::after {
-  color: var(--accent-strong);
-  content: "+";
-  font-size: 1.05rem;
-  line-height: 1;
-}
-
-.course[open] .course-header {
+  padding: 20px 22px;
   border-bottom: 1px solid var(--line);
 }
 
-.course[open] .course-header::after {
-  content: "-";
+.course-header h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }
 
 .count {
   color: var(--muted);
   font-size: 0.8rem;
+  margin-left: auto;
   white-space: nowrap;
 }
 
 .note-list {
   display: grid;
-  gap: 6px 22px;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(180px, 1fr);
-  grid-template-rows: repeat(14, auto);
+  font-size:0.96rem;
+  gap: 10px;
+  grid-template-columns: minmax(0, 1fr);
+  line-height: 1.6;
   list-style: none;
   margin: 0;
-  padding: 14px 16px 16px;
+  padding: 18px 22px 22px;
 }
 
 .note-list li {
@@ -269,7 +259,14 @@ h3 {
 
 .note-list a {
   display: block;
-  min-height: 26px;
+  min-height: 28px;
+}
+
+.note-unavailable {
+  color: var(--muted);
+  display: block;
+  min-height: 28px;
+  opacity: 0.72;
 }
 
 .site-footer {
@@ -313,8 +310,8 @@ h3 {
     flex-direction: column;
   }
 
-  .course {
-    margin-right: 0;
+  .course-grid {
+    grid-template-columns: 1fr;
   }
 
   .note-list {

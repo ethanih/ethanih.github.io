@@ -13,16 +13,24 @@ permalink: /mynotes/
 
 <section class="course-grid" aria-label="Course note list">
   {% for course in site.data.notes %}
-    <details class="course" open>
-      <summary class="course-header">
+    <article class="course">
+      <div class="course-header">
         <h2>{{ course.course }}</h2>
         <span class="count">{{ course.notes | size }} notes</span>
-      </summary>
+      </div>
       <ul class="note-list">
         {% for note in course.notes %}
-          <li><a href="{{ note.file | relative_url }}">{{ note.title }}</a></li>
+          {% assign note_file = note.file | default: "" %}
+          {% assign matching_files = site.static_files | where: "path", note_file %}
+          <li>
+            {% if note_file != "" and matching_files.size > 0 %}
+              <a href="{{ note_file | relative_url }}">{{ note.title }}</a>
+            {% else %}
+              <span class="note-unavailable">{{ note.title }}</span>
+            {% endif %}
+          </li>
         {% endfor %}
       </ul>
-    </details>
+    </article>
   {% endfor %}
 </section>
