@@ -1,55 +1,3 @@
-- course: COMP 2012
-  notes:
-    - title: "2.2-2.4"
-      file: /assets/lecture_note/COMP2012/Week1.txt
-    - title: "2.9"
-      file: /assets/lecture_note/COMP2012/2.9.txt
-    - title: "2.11"
-      file: /assets/lecture_note/COMP2012/2.11.txt
-    - title: "2.13"
-      file: /assets/lecture_note/COMP2012/2.13.txt
-    - title: "2.16"
-      file: /assets/lecture_note/COMP2012/2.16.txt
-    - title: "2.23"
-      file: /assets/lecture_note/COMP2012/2.23.txt
-    - title: "2.25"
-      file: /assets/lecture_note/COMP2012/2.25.txt
-    - title: "3.2"
-      file: /assets/lecture_note/COMP2012/3.2.txt
-    - title: "3.4"
-      file: /assets/lecture_note/COMP2012/3.4.txt
-    - title: "3.9"
-      file: /assets/lecture_note/COMP2012/3.9.txt
-    - title: "3.11"
-      file: /assets/lecture_note/COMP2012/3.11.txt
-    - title: "3.16"
-      file: /assets/lecture_note/COMP2012/3.16.txt
-    - title: "3.18"
-      file: /assets/lecture_note/COMP2012/3.18.txt
-    - title: "3.23"
-      file: /assets/lecture_note/COMP2012/3.23.txt
-    - title: "3.25"
-      file: /assets/lecture_note/COMP2012/3.25.txt
-    - title: "3.30"
-      file: /assets/lecture_note/COMP2012/3.30.txt
-    - title: "4.1"
-      file: /assets/lecture_note/COMP2012/4.1.txt
-    - title: "4.13"
-      file: /assets/lecture_note/COMP2012/4.13.txt
-    - title: "4.15"
-      file: /assets/lecture_note/COMP2012/4.15.txt
-    - title: "4.20"
-      file: /assets/lecture_note/COMP2012/4.20.txt
-    - title: "4.22"
-      file: /assets/lecture_note/COMP2012/4.22.txt
-    - title: "4.27"
-      file: /assets/lecture_note/COMP2012/4.27.txt
-    - title: "4.29"
-      file: /assets/lecture_note/COMP2012/4.29.txt
-    - title: "5.4"
-      file: /assets/lecture_note/COMP2012/5.4.txt
-    - title: "5.6"
-      file: /assets/lecture_note/COMP2012/5.6.txt
 - course: COMP 3211
   notes:
     - title: "Lecture 2: Reactive Agents"
@@ -130,6 +78,58 @@
       file: /assets/lecture_note/COMP4211/SVM.pdf
     - title: Decision Trees and Random Forests
       file: /assets/lecture_note/COMP4211/Decision Tree and Random Forest.pdf
+- course: COMP 2012
+  notes:
+    - title: "2.2-2.4"
+      file: /assets/lecture_note/COMP2012/Week1.txt
+    - title: "2.9"
+      file: /assets/lecture_note/COMP2012/2.9.txt
+    - title: "2.11"
+      file: /assets/lecture_note/COMP2012/2.11.txt
+    - title: "2.13"
+      file: /assets/lecture_note/COMP2012/2.13.txt
+    - title: "2.16"
+      file: /assets/lecture_note/COMP2012/2.16.txt
+    - title: "2.23"
+      file: /assets/lecture_note/COMP2012/2.23.txt
+    - title: "2.25"
+      file: /assets/lecture_note/COMP2012/2.25.txt
+    - title: "3.2"
+      file: /assets/lecture_note/COMP2012/3.2.txt
+    - title: "3.4"
+      file: /assets/lecture_note/COMP2012/3.4.txt
+    - title: "3.9"
+      file: /assets/lecture_note/COMP2012/3.9.txt
+    - title: "3.11"
+      file: /assets/lecture_note/COMP2012/3.11.txt
+    - title: "3.16"
+      file: /assets/lecture_note/COMP2012/3.16.txt
+    - title: "3.18"
+      file: /assets/lecture_note/COMP2012/3.18.txt
+    - title: "3.23"
+      file: /assets/lecture_note/COMP2012/3.23.txt
+    - title: "3.25"
+      file: /assets/lecture_note/COMP2012/3.25.txt
+    - title: "3.30"
+      file: /assets/lecture_note/COMP2012/3.30.txt
+    - title: "4.1"
+      file: /assets/lecture_note/COMP2012/4.1.txt
+    - title: "4.13"
+      file: /assets/lecture_note/COMP2012/4.13.txt
+    - title: "4.15"
+      file: /assets/lecture_note/COMP2012/4.15.txt
+    - title: "4.20"
+      file: /assets/lecture_note/COMP2012/4.20.txt
+    - title: "4.22"
+      file: /assets/lecture_note/COMP2012/4.22.txt
+    - title: "4.27"
+      file: /assets/lecture_note/COMP2012/4.27.txt
+    - title: "4.29"
+      file: /assets/lecture_note/COMP2012/4.29.txt
+    - title: "5.4"
+      file: /assets/lecture_note/COMP2012/5.4.txt
+    - title: "5.6"
+      file: /assets/lecture_note/COMP2012/5.6.txt
 - course: MATH 2011
   notes:
     - title: Vector & Curves
